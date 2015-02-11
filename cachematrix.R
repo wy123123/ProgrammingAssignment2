@@ -21,9 +21,9 @@ makeCacheMatrix <- function(x = matrix()) {
        getInverse = getInverse)
 }
 
-## The function takes in a matrix and check if it's inverse has been computed,
+## The function takes in a matrix and checks if its inverse matrix has been computed,
 ## if true, it returns the stored inverse matrix,
-## if faluse, it computes the inverse, stores the matrix and then returns it.
+## if false, it computes the inverse, stores the matrix and then returns it.
 ## the function is useful when we need to compute the inverse of a same matrix for multiple times
 ## especially if the matrix is complicated, it will save a lot of time.
 cacheSolve <- function(x, ...) {

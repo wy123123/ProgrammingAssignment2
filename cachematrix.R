@@ -38,6 +38,9 @@ cacheSolve <- function(x, ...) {
   x$setInverse(m)
   m
 }
+
+#example
 s=matrix(c(1,2,3,0,1,4,5,6,1),ncol=3)
 d=makeCacheMatrix(s)
+cacheSolve(d)
 cacheSolve(d)
